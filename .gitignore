@@ -4,11 +4,12 @@ obj/
 TestResult.xml
 
 #User Specific Files
+.vs/
 *.user
 *.suo
 *.pidb
 *.userprefs
-project.lock
+project.lock.json
 
 #Resource Caches
 _ReSharper.*
