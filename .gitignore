@@ -1,0 +1,23 @@
+# Build and Object Folders
+bin/
+obj/
+TestResult.xml
+
+#User Specific Files
+*.user
+*.suo
+*.pidb
+*.userprefs
+project.lock
+
+#Resource Caches
+_ReSharper.*
+*.sln.cache
+
+#Editor backup files
+*~
+
+#NuGet
+packages/
+tools/*
+!tools/packages.config
