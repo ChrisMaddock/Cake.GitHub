@@ -1,18 +1,29 @@
 {
   "name": "Cake.GitHub",
   "version": "0.0.1",
+  "copyright": "Copyright (C) 2016 Chris Maddock",
+  "authors": [ "Chris Maddock" ],
+  "title": "Cake.GitHub",
+  "description": "Cake addin to provide intergation with the GitHub API, using Octokit.",
 
   "packOptions": {
-    "packageType": "DotnetCliTool"
+    "summary": "Cake addin to provide intergation with the GitHub API, using Octokit.",
+    "requireLicenseAcceptance": false,
+    "projectUrl": "https://github.com/ChrisMaddock/Cake.GitHub",
+    "tags": [ "cake-build", "cake", "octokit", "github" ],
+    "iconUrl": "https://raw.githubusercontent.com/ChrisMaddock/Cake.GitHub/master/cake.github.256.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ChrisMaddock/Cake.GitHub"
+    }
   },
 
   "dependencies": {
     "Cake.Core": "0.17.0",
-    "NETStandard.Library": "1.6.0",
     "Octokit": "0.23.0"
   },
 
   "frameworks": {
-    "net45": {}
+    "net45": { }
   }
 }
