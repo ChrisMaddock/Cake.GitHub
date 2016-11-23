@@ -1,5 +1,10 @@
 {
-  "version": "1.0.0-*",
+  "name": "Cake.GitHub",
+  "version": "0.0.1",
+
+  "packOptions": {
+    "packageType": "DotnetCliTool"
+  },
 
   "dependencies": {
     "Cake.Core": "0.17.0",
@@ -8,6 +13,6 @@
   },
 
   "frameworks": {
-    "net45": { }
+    "net45": {}
   }
 }

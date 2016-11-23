@@ -1,4 +1,4 @@
-﻿namespace Cake.GitHub.Model
+﻿namespace Cake.GitHub
 {
     public struct GitHubRepository
     {
